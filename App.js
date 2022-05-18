@@ -42,9 +42,9 @@ class App extends Component {
               {imagens}
             </ScrollView>
 
-            <Button style={{paddingTop: 10}} color={"black"} onPress={() => { alert('Uma confissão: Eu te amo \nUm desejo: Estar com você \nUm voto: Sua felicidade \nUm sonho: Ter você eternamente \nUma emoção: Nosso primeiro beijo \nUm objetivo: Uma vida a dois \nUm pedido: Por favor me ame \nUm lembrete: Amarei você sempre \n\n❤️Tudo isso porque: Te amo demais!❤️');}} title='Aperte Aqui👀'></Button>
+            <Button style={{paddingTop: 10}} color={"black"} onPress={() => { alert('Uma confissão: Eu te amo \nUm desejo: Estar com você \nUm voto: Sua felicidade \nUm sonho: Ter você eternamente \nUma emoção: Nosso primeiro beijo \nUm objetivo: Uma vida a dois \nUm pedido: Por favor me ame \nUm lembrete: Amarei você sempre \n\n❤️Tudo isso porque: Te amo demais!❤️');}} title='Aperte Aqui 👀'></Button>
             <Text style={{textAlign: "center",fontSize: 10}}></Text>
-            <Button paddingTop={50} color={'black'} onPress={() => { alert('🛐Meu Love todinho da minha Vida!!🛐');}} title='Supresa'></Button>
+            <Button paddingTop={50} color={'black'} onPress={() => { alert('🛐Você é Meu Love todinho da minha Vida!!🛐');}} title='Supresa 🤫'></Button>
             <Text style={{textAlign: "center",fontSize: 10}}></Text>
             <Text style={{textAlign: "center",fontSize: 10}}></Text>
             
@@ -61,7 +61,7 @@ class App extends Component {
             />
 
             <Text style={{textAlign: "center",fontSize: 25}}></Text>
-            <Button paddingTop={50} color={'black'} onPress={() => { alert('⚠️⚠️⚠️ALERTAAAA⚠️⚠️⚠️ \n\n    Certidao de Casamento   \n\nVitoria Lima está Oficalmente Casada com Felipe Holanda👏👏👏👏');}} title='Aperte aqui para viver para sempre comigo👀'></Button>
+            <Button paddingTop={50} color={'black'} onPress={() => { alert('⚠️⚠️⚠️ALERTAAAA⚠️⚠️⚠️ \n\n    Certidao de Casamento   \n\nVitoria Lima está Oficalmente Casada com Felipe Holanda👏👏👏👏');}} title='Aperte aqui para viver para sempre comigo 👀'></Button>
 
             <Text style={{textAlign: "center",fontSize: 13, paddingTop: 50}}>© Felipe Holanda - O Amorzinho Da Sua Vida</Text>
 
