@@ -9,11 +9,16 @@ class App extends Component {
     let coracaoURI = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/220px-Heart_coraz%C3%B3n.svg.png";
     let AmorURI = "https://www.bigfesta.com.br/resizer/view/373/373/false/true/27972.jpg";
     let logoLocal = require ('../Amorzinho/images/Agente.png');
+    let voceLocal = require ('../Amorzinho/images/Você.jpeg');
     // Array de imagens
     // Esse array ira inserir a mesma imagem até o loop terminar
     let carrosel = []
     for (let i=0; i < 1; i++) {
       carrosel.push(<Image style = {{position: "relative" ,width: 340,  height: 350, margin: 5}} source = {{uri: logoLocal}} /> )
+    }
+    let voce = []
+    for (let i=0; i < 1; i++) {
+      voce.push(<Image style = {{position: "relative" ,width: 340,  height: 350, margin: 5}} source = {{uri: voceLocal}} /> )
     }
     let imagens = []
     for (let i=0; i < 1; i++) {
@@ -47,8 +52,19 @@ class App extends Component {
               style = {{borderRadius:30, width:353, height:400}}
               source = {logoLocal}
             />
+            <Text style={{textAlign: "center",fontSize: 25}}></Text>
+            <Text style={{textAlign: "center",fontSize: 25}}>Minha Perfeição da minha vida todinha😍😍😍😍😍🥰</Text>
+            <Text style={{textAlign: "center",fontSize: 25}}></Text>
+            <Image
+              style = {{borderRadius:30, width:353, height:500}}
+              source = {voceLocal}
+            />
+            
+            <Text style={{textAlign: "center",fontSize: 25}}></Text>
+            <Button paddingTop={50} color={'black'} onPress={() => { alert('⚠️⚠️⚠️ALERTAAAA⚠️⚠️⚠️ \n\n    Certidao de Casamento   \n\nVitoria Lima está Oficalmente Casada com Felipe Holanda👏👏👏👏');}} title='Aperte aqui para viver para sempre comigo👀'></Button>
 
             <Text style={{textAlign: "center",fontSize: 13, paddingTop: 100}}>© Felipe Holanda - O Amorzinho Da Sua Vida</Text>
+
               
         </View> 
       </ScrollView>
