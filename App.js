@@ -52,6 +52,7 @@ class App extends Component {
               style = {{borderRadius:30, width:353, height:400}}
               source = {logoLocal}
             />
+            
             <Text style={{textAlign: "center",fontSize: 25}}></Text>
             <Text style={{textAlign: "center",fontSize: 25}}>Minha Perfeição da minha vida todinha😍😍😍😍😍🥰</Text>
             <Text style={{textAlign: "center",fontSize: 25}}></Text>
