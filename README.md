@@ -14,5 +14,13 @@
 <h4 align="center">
    ⚠ Projeto Em Andamento - Versão mais recente ⚠
   </h4>
-  <br>
+  
+<br>
+
+  ### Tecnologias
+
+  As seguintes ferramentas foram usadas na construção do projeto:
+
+  - [x] Expo
+  - [x] JavaScript
 
