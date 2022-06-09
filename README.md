@@ -12,7 +12,7 @@
 
 <br>
 <h4 align="center">
-   ⚠ Projeto Em Andamento - Versão mais recente ⚠
+   ⚠ Projeto Em Andamento - Girlfriend ⚠
   </h4>
   
 <br>
